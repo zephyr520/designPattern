@@ -23,7 +23,7 @@ public class NewYorkStylePizzaStore extends PizzaStore {
 			// 创建纽约风格的意大利辣味香肠披萨
 			pizza = new NewYorkStylePepperoniPizza();
 		} else if("clam".equals(type)) {
-			// 创建纽约风格的蛤披萨
+			// 创建纽约风格的蛤蛎披萨
 			pizza = new NewYorkStyleClamPizza();
 		} else if("veggie".equals(type)) {
 			// 创建纽约风格的素食披萨

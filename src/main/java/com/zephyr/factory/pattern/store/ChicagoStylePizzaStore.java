@@ -23,7 +23,7 @@ public class ChicagoStylePizzaStore extends PizzaStore {
 			// 创建芝加哥风格的意大利辣味香肠披萨
 			pizza = new ChicagoStylePepperoniPizza();
 		} else if("clam".equals(type)) {
-			// 创建芝加哥风格的蛤披萨
+			// 创建芝加哥风格的蛤蛎披萨
 			pizza = new ChicagoStyleClamPizza();
 		} else if("veggie".equals(type)) {
 			// 创建芝加哥风格的素食披萨
