@@ -1,6 +1,9 @@
 package com.zephyr.factory.pattern.store;
 
 import com.zephyr.factory.pattern.pizza.NewYorkStyleCheesePizza;
+import com.zephyr.factory.pattern.pizza.NewYorkStyleClamPizza;
+import com.zephyr.factory.pattern.pizza.NewYorkStylePepperoniPizza;
+import com.zephyr.factory.pattern.pizza.NewYorkStyleVeggiePizza;
 import com.zephyr.factory.pattern.pizza.Pizza;
 
 /**
@@ -18,10 +21,13 @@ public class NewYorkStylePizzaStore extends PizzaStore {
 			pizza = new NewYorkStyleCheesePizza();
 		} else if("pepperoni".equals(type)) {
 			// 创建纽约风格的意大利辣味香肠披萨
+			pizza = new NewYorkStylePepperoniPizza();
 		} else if("clam".equals(type)) {
 			// 创建纽约风格的蛤披萨
+			pizza = new NewYorkStyleClamPizza();
 		} else if("veggie".equals(type)) {
 			// 创建纽约风格的素食披萨
+			pizza = new NewYorkStyleVeggiePizza();
 		}
 		return pizza;
 	}
